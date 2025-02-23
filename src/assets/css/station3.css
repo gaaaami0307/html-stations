@@ -1,3 +1,8 @@
 .card{
   background-color: #ffffff;
 }
+
+.card__title{
+  color:#282828;
+  font-size: 14px;
+}
