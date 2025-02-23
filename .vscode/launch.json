@@ -5,9 +5,9 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
+      "name": "Launch Edge",
       "request": "launch",
-      "name": "localhost に対して Chrome を起動する",
+      "type": "msedge",
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}"
     }
