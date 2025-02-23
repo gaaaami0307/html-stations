@@ -11,8 +11,12 @@ async function getData() {
 }
 
 function test(data) {
-  setTimeout(()=>{},3000);
-  return data.map(buildFullName)
+  return new Promise((resolve,reject) => {
+    setTimeout(() => {
+      const ans= data.map(buildFullName);
+      resolve(ans);
+    }, 3000);
+  });
 }
 
 function buildFullName(data) {
