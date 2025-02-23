@@ -1,6 +1,9 @@
 .card{
   background-color: #ffffff;
   padding:12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__title{
