@@ -3,14 +3,44 @@
   padding:12px;
 }
 
-.card__title{
-  color:#000000;
-  font-size: 14px;
+/*For smartphone*/
+@media (max-width: 767px){
+  .card__title{
+    color:#000000;
+    font-size: 10px;
+  }
+
+  .card__description{
+    color:#000000;
+    font-size:8px;
+    display: none;
+  }
 }
 
-.card__description{
-  color:#000000;
-  font-size:12px;
+/*For tablet*/
+@media (min-width:768px) and (max-width: 1199px){
+  .card__title{
+    color:#000000;
+    font-size: 10px;
+  }
+
+  .card__description{
+    color:#000000;
+    font-size:8px;
+  }
+}
+
+/*For PC*/
+@media (min-width: 1200px){
+  .card__title{
+    color:#000000;
+    font-size: 14px;
+  }
+
+  .card__description{
+    color:#000000;
+    font-size:12px;
+  }
 }
 
 .card__img-top{
